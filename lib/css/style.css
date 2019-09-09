@@ -4,6 +4,7 @@
     max-width: 500px;
     float: left;
     margin: 20px 20px 20px 0;
+    display: flex;
 }
 .tse-player:after{
     content: "";
@@ -11,14 +12,12 @@
   clear: both;
 }
 .tse-player > div:first-of-type{
-    float: left;
-    width: 20%;
+    flex: 0 0 20%;
     background-color: #65b7ed;
     position: relative;
 }
 .tse-player > div:last-of-type{
-    float: left;
-    width: 80%;
+    flex: 1;
     padding: 20px;
 }
 .tse-player .player{
