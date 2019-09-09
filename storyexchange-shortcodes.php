@@ -30,7 +30,7 @@ function tse_player_shortcode( $atts = [] ) {
     // text
     $o .= '<h3>' . esc_html__($atts['text']) . '</h3>';
     // mp3 player
-    $o .= '<audio class="podcast-player" preload="metadata">';
+    $o .= '<audio controls class="podcast-player" preload="metadata">';
     $o .= '<source src="'. $atts['mp3'] . '" type="audio/mpeg">';
     $o .= '</audio>';
     //end of output
