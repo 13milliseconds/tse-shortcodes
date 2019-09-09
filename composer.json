@@ -1,0 +1,17 @@
+{
+    "name": "13milliseconds/tse-shortcodes",
+    "version": "1.0",
+    "description": "Short Codes for the Story Exchange Wordpress website",
+    "keywords": ["wordpress", "plugin"],
+    "homepage": "https://github.com/13milliseconds/tse-shortcodes",
+    "authors": [
+      {
+        "name": "13milliseconds",
+        "homepage": "https://13milliseconds.com/"
+      }
+    ],
+    "type": "wordpress-plugin",
+    "require": {
+      "php": ">=5.6"
+    }
+  }
