@@ -1,0 +1,43 @@
+.tse-player{
+    border: 1px solid #999;
+    width: 100%;
+    max-width: 500px;
+    float: left;
+    margin: 20px 20px 20px 0;
+}
+.tse-player:after{
+    content: "";
+  display: table;
+  clear: both;
+}
+.tse-player > div:first-of-type{
+    float: left;
+    width: 20%;
+    background-color: #65b7ed;
+    position: relative;
+}
+.tse-player > div:last-of-type{
+    float: left;
+    width: 80%;
+    padding: 20px;
+}
+.tse-player .player{
+    margin-bottom: 0;
+}
+.tse-player img{
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tse-player h2{
+    font-size: 1.2em;
+    color: #65b7ed;
+    margin-bottom: 5px;
+    letter-spacing: .04em;
+}
+
+.tse-player h3{
+    font-size: 1em;
+}
