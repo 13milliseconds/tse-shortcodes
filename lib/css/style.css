@@ -40,3 +40,8 @@
 .tse-player h3{
     font-size: 1em;
 }
+
+.tse-player audio{
+    margin-top: 10px;
+    width: 100%;
+}
