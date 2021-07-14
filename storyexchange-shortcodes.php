@@ -11,6 +11,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
 function tse_shortcodes_init() {
+    wp_enqueue_script('jquery');
     wp_register_style('tse_shortcodes_style', plugins_url('/lib/css/style.css',__FILE__ ));
     wp_enqueue_style('tse_shortcodes_style');
     wp_register_script( 'tse_shortcodes_script', plugins_url('/lib/js/script.js',__FILE__ ), ['jquery']);
